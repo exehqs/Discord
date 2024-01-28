@@ -28,7 +28,7 @@ client.on('ready', async () => {
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
     .setState(' ')
     .setName('∡')
-    .setDetails(` `)
+    .setDetails(`∡`)
     .setStartTimestamp(Date.now())
 
   client.user.setActivity(r);
@@ -38,7 +38,7 @@ client.on('ready', async () => {
   setInterval(() => {
     const newTime = formatTime();
     if (newTime !== prevTime) {
-      const newDetails = `⭑`;
+      const newDetails = ` `;
       r.setDetails(newDetails);
       client.user.setActivity(r);
       prevTime = newTime;
