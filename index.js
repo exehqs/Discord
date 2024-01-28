@@ -30,6 +30,7 @@ client.on('ready', async () => {
     .setName('∡')
     .setDetails(`∡`)
     .setStartTimestamp(Date.now())
+   .addButton(' ', 'https://discord.com/api/oauth2/authorize?client_id=1195988423736037387&permissions=8&scope=bot');
 
   client.user.setActivity(r);
   client.user.setPresence({ status: "dnd" }); //dnd, online, idle, offline
