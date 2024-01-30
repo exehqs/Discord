@@ -26,7 +26,7 @@ client.on('ready', async () => {
     .setApplicationId('1198455256028291114')
     .setType('STREAMING')
     .setURL('https://www.youtube.com/watch?v=dQw4w9WgXcQ') //Must be a youtube video link 
-    .setState(' ')
+    .setState('∡')
     .setName('∡')
     .setDetails(`∡`)
     .setStartTimestamp(Date.now())
